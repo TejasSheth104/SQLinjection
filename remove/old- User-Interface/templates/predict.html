@@ -1,0 +1,45 @@
+<html>
+
+ <style>
+ h1 {
+  width:100%: 
+  float: center;
+  display: block;
+  background-color: #333;
+  color: #f2f2f2;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px; 
+  height:100px;
+}
+
+img {
+   background-color: #ddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  
+}
+ </style>
+
+ <body>
+ 	 {% if prediction == "Positive" %}
+		 
+	     <h1> SQL INJECTION Detected   </h1>
+  
+	
+	  {% else %}
+
+    {% if prediction == "Logged in successfully" %}
+      <h1> User logged in successfully  </h1>
+
+    {%  else %}
+		<h1> Invalid Login  </h1>
+    {% endif %}
+	
+	{% endif %}
+ </body>
+ </html>
+ 
+ 
