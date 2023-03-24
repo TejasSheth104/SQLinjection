@@ -1,0 +1,27 @@
+Good Morning, 
+Today my group [- - - ] and I will be presenting to you our final year project titled "Detection of SQL Injection Attack using reinforcement Learning" under the guidance of Ramya Maam.
+
+Our problem statement aims at detecting SQL injection to improve security of the website. We have implemented a Reinforcemnet Model to detect malicious queries, as it is a self-learning model that learns from its environment and agents and helps in detecting latest vulnerabilities.
+
+The primary objectives of our project is to create a basic web application to perform SQLinjection attacks, and to create a RL model to detect these attacks.
+
+The scope of this project revolves around testing and security of a web application software with encompasses databases.
+Previous methods utilized supervised and unsupervised ML algorithms. 
+
+The proposed system > take user input > parse the input > pass it to the ML model > display the output on user interface.
+
+===
+
+This is our frontend, 
+We have used html css js and Flask to build our user interface and backend connectivity resp.
+We input possible vulnerable query through input field.
+teh Detect button sends a POST method to the backend, along with the input query and the corresponding result is displayed.
+
+Gantt Chart
+> last sem - comparision
+LR, CNN, KNN, NB, RF
+we have even submitted a resesarch/ review paper on the same pending acceptance.
+
+Improve Accuracy.
+Connect backend to frontend
+Research paper in SCRS springer confernece.

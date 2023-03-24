@@ -1,0 +1,21 @@
+> fork / clone the repo = " https://github.com/TejasSheth104/SQLinjection "
+
+-- first time execution 
+> cd react-flask-app
+> cd backend - 
+	execute "pip install -r requirements.txt"
+> cd frontend - 
+	execute "npm install"
+
+-- to run the webapp
+	execute "npm run start: server-dev"
+
+> reinforcement learning models 
+	backend/models
+
+> frontend -
+	src/index.css
+	src/classsifier/index.jsx
+
+> backend - 
+	app.py
