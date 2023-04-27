@@ -1,0 +1,23 @@
+"WBS #","Name / Title",Type,"Start Date","End Date","Estimated Hours","Actual Hours","Percent Complete",Resources,Predecessors,Notes,Comments,"Task Color"
+1,"Detection of SQL Injection Attacks using Reinforcement Learning",project,2022-07-18,2023-03-24,0,0,0,,,,,
+1.1,"Project Concept and Design Layout",group,2022-07-18,2022-10-31,0,0,0,,,,,
+1.1.1,"Create a basic React app for login/signup",task,2022-07-18,2022-08-12,0,0,0,,,,,blue2
+1.1.2,"Create a database for users",task,2022-07-18,2022-07-25,0,0,0,,,,,blue2
+1.1.3,"Connect React JS to MySQL",task,2022-07-21,2022-07-29,0,0,0,,,,,blue2
+1.1.4,"Perform SQLi through User Input",task,2022-07-25,2022-08-05,0,0,0,,,,,blue2
+1.1.5,"Display result on the webpage",task,2022-08-01,2022-08-12,0,0,0,,,,,blue2
+1.1.6,"Manual Penetration Testing",task,2022-08-01,2022-08-19,0,0,0,,,,,blue2
+1.1.7,"Automate Penetration Testing using RL agent ",task,2022-08-05,2022-09-02,0,0,0,,,,,blue2
+1.1.8,"Research paper completion",task,2022-08-22,2022-09-30,0,0,0,,,,,blue2
+1.1.9,"Data Analytics",task,2022-08-29,2022-09-30,0,0,0,,,,,blue2
+1.1.10,"Testing on websites that allow ethical hacking",task,2022-09-12,2022-10-31,0,0,0,,,,,blue2
+1.2,"Q-Learning Model Implementation",group,2022-11-01,2023-02-10,0,0,0,,,,,
+1.2.1,"Research - Q-Learning",task,2022-11-01,2022-12-30,0,0,0,,,,,blue2
+1.2.2,"Q-Learning Implementation",task,2022-12-19,2023-01-31,0,0,0,,,,,blue2
+1.2.3,"Improving Accuracy",task,2023-01-23,2023-02-10,0,0,0,,,,,blue2
+1.3,"Frontend Implementation",group,2023-01-09,2023-03-03,0,0,0,,,,,
+1.3.1,"User Interface Update",task,2023-01-09,2023-02-03,0,0,0,,,,,blue2
+1.3.2,"Flask Connectivity",task,2023-02-06,2023-03-03,0,0,0,,,,,blue2
+1.4,"Research Paper",group,2023-02-01,2023-03-24,0,0,0,,,,,
+1.4.1,"Reinforcement Learning ",task,2023-02-01,2023-03-17,0,0,0,,,,,blue2
+1.4.2,Submission,task,2023-02-13,2023-03-24,0,0,0,,,,,blue2
