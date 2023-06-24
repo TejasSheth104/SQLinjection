@@ -5,7 +5,7 @@ import pandas as pd
 from nltk.corpus import stopwords
 from tensorflow.keras.models import load_model
 
-df = pd.read_csv("MajorprojectSQLi\sqliv2.csv",encoding='utf-16')
+df = pd.read_csv("data\sqliv2.csv",encoding='utf-16')
 from sklearn.feature_extraction.text import CountVectorizer
 vectorizer = CountVectorizer( min_df=2, max_df=0.7, max_features=4096, stop_words=stopwords.words('english'))
 posts = vectorizer.fit_transform(df['Sentence'].values.astype('U')).toarray()
@@ -28,8 +28,7 @@ def login():
 def predict():
     query =  str(request.form['sqli_query'])
 
-    model = load_model("MajorprojectSQLi\ql_rl_model.h5")
-    # model1.summary()
+    model = load_model("ql_rl_model.h5")
     print("model loaded")
 
     print(query)
